@@ -77,41 +77,32 @@ The presentation covers:
 
 ---
 
-# 📸 Application Screenshots
+# 📸 Streamlit Application
 
-## Home Page
+The trained XGBoost model is deployed using **Streamlit**, providing an interactive interface for predicting a customer's preferred beverage price range based on demographic and behavioural information.
 
-```
-images/home_page.png
-```
+<p align="center">
+  <img src="visuals/streamlit-ui.JPG" alt="CodeX Beverage Streamlit Application" width="900">
+</p>
 
----
+**Key Features**
 
-## Customer Input Form
-
-> Add screenshot
-
-```
-images/input_form.png
-```
+- Interactive user-friendly interface
+- Customer demographic and behavioural input
+- Real-time price range prediction
+- Automated feature engineering and encoding
+- Machine learning-powered inference using the trained XGBoost model
 
 ---
 
-## Prediction Output
+# 📈 MLflow Experiment Tracking
 
-> Add screenshot
+MLflow was used to track and compare machine learning experiments, monitor model performance, and select the best-performing model for deployment.
 
-```
-images/prediction_result.png
-```
+<p align="center">
+  <img src="visuals/ml_flow_output_demo.png" alt="MLflow Experiment Tracking" width="900">
+</p>
 
----
-
-## MLflow Experiment Tracking
-
-![MLflow](images/ml_flow_output_demo.png)
-
----
 
 # 🎯 Business Problem
 
