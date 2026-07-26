@@ -1,0 +1,16 @@
+# Dataset
+
+The dataset used in this project was provided during my Data Science Internship and contains proprietary business information.
+
+To respect confidentiality and data privacy agreements, the original dataset has not been included in this public repository.
+
+This repository focuses on demonstrating the complete machine learning workflow, including:
+
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Development
+- Model Evaluation
+- MLflow Experiment Tracking
+- Streamlit Deployment
+
