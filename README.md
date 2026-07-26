@@ -82,7 +82,7 @@ The presentation covers:
 The trained XGBoost model is deployed using **Streamlit**, providing an interactive interface for predicting a customer's preferred beverage price range based on demographic and behavioural information.
 
 <p align="center">
-  <img src="visuals/streamlit-ui.JPG" alt="CodeX Beverage Streamlit Application" width="900">
+  <img src="visuals/streamlit-ui.jpg" alt="Streamlit Application Demo" width="900">
 </p>
 
 **Key Features**
@@ -321,16 +321,17 @@ codex-beverage-price-range-prediction/
 ├── notebooks/
 │     └── price_range_prediction.ipynb
 │
-├── images/
-│     ├── banner.png
-│     ├── home_page.png
-│     ├── input_form.png
-│     ├── prediction_result.png
+├── visuals/
+│     ├── streamlit-ui.jpg
+│     ├── feature_importance.png
+│     ├── frequency_vs_price.png
+│     ├── income_distribution.png
 │     ├── ml_flow_output_demo.png
 │
-├── app.py
-├── predict.py
-├── price_range_model.joblib
+├── artifacts/
+│     ├── app.py
+│     ├── predict.py
+│     ├── price_range_model.joblib
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
