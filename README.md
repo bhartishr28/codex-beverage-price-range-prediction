@@ -247,14 +247,14 @@ Used for nominal variables.
 
 The following models were trained and evaluated.
 
-| Model | Description |
-|--------|-------------|
-| Logistic Regression | Baseline Model |
-| Gaussian Naive Bayes | Probabilistic Classifier |
-| Support Vector Machine | Margin-Based Classification |
-| Random Forest | Ensemble Learning |
-| LightGBM | Gradient Boosting |
-| **XGBoost** | Best Performing Model |
+| Model | Accuracy | Remarks |
+|--------|---------:|---------|
+| Logistic Regression | **79.80%** | Baseline linear classifier |
+| Gaussian Naive Bayes | **56.27%** | Lowest performance due to strong independence assumptions |
+| Support Vector Machine (SVM) | **82.33%** | Good classification performance |
+| Random Forest | **89.56%** | Strong ensemble model with high accuracy |
+| LightGBM | **92.15%** | Excellent gradient boosting performance |
+| 🏆 XGBoost | **92.44%** | **Best Performing Model** |
 
 ---
 
@@ -360,7 +360,7 @@ codex-beverage-price-range-prediction/
 # 🚀 Installation
 
 ```bash
-git clone https://github.com/<your-username>/codex-beverage-price-range-prediction.git
+git clone https://github.com/<https://github.com/bhartishr28>/codex-beverage-price-range-prediction.git
 
 cd codex-beverage-price-range-prediction
 
@@ -404,8 +404,9 @@ The solution enables organisations to:
 ## **Bharti Kumari**
 
 MBA (Data Science)
+B.E (Computer Science)
 
-Former Credit Officer with 9+ years of banking experience transitioning into Data Science.
+Former Credit Officer-Manager with 9+ years of banking experience transitioning into Data Science.
 
 ### Technical Skills
 
@@ -425,9 +426,9 @@ Former Credit Officer with 9+ years of banking experience transitioning into Dat
 
 # 🤝 Connect With Me
 
-- 💼 LinkedIn: **Add your LinkedIn profile**
-- 📧 Email: **Add your email**
-- 🌐 GitHub: **Add your GitHub profile**
+- 💼 LinkedIn: **https://www.linkedin.com/in/bhartikumari28/**
+- 📧 Email: **bhartishr@gmail.com**
+- 🌐 GitHub: **https://github.com/bhartishr28**
 
 ---
 
