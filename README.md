@@ -360,7 +360,7 @@ codex-beverage-price-range-prediction/
 # 🚀 Installation
 
 ```bash
-git clone https://github.com/<https://github.com/bhartishr28>/codex-beverage-price-range-prediction.git
+git clone https://github.com/bhartishr28/codex-beverage-price-range-prediction.git
 
 cd codex-beverage-price-range-prediction
 
