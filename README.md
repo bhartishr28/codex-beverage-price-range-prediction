@@ -1,34 +1,48 @@
-# 🥤 CodeX Beverage Price Range Prediction
+<p align="center">
+  <img src="visuals/banner.png" alt="CodeX Beverage Price Range Prediction Banner" width="100%">
+</p>
 
+<h1 align="center">🥤 CodeX Beverage Price Range Prediction</h1>
+
+<p align="center">
+An End-to-End Machine Learning Project for Predicting Customer Beverage Price Preferences using <b>XGBoost</b>, <b>MLflow</b>, and <b>Streamlit</b>.
 </p>
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-orange?style=for-the-badge&logo=scikitlearn)
-![XGBoost](https://img.shields.io/badge/XGBoost-Best%20Model-success?style=for-the-badge)
-![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-green?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?style=for-the-badge&logo=streamlit)
-![MLflow](https://img.shields.io/badge/MLflow-Experiment%20Tracking-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![XGBoost](https://img.shields.io/badge/XGBoost-Model-success)
+![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-green)
+![MLflow](https://img.shields.io/badge/MLflow-Experiment%20Tracking-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
 
 </p>
-<p align="center">
-
-### 🚀 End-to-End Machine Learning Project
-
-### Predicting Customer Beverage Price Preference using Machine Learning, XGBoost, MLflow & Streamlit
 
 ---
 
 # 📖 Project Overview
 
-Selecting the right product price is one of the most important business decisions in the FMCG industry.
+Selecting the right product price is one of the most critical business decisions in the **Fast-Moving Consumer Goods (FMCG)** industry. Understanding customers' willingness to pay enables companies to optimize pricing strategies, improve product positioning, and enhance customer satisfaction while maximizing revenue.
 
-This project develops an **end-to-end Machine Learning solution** that predicts the **preferred beverage price range** of a customer based on demographic information, purchasing behaviour, product preferences and consumption habits.
+This project develops an **end-to-end Machine Learning solution** to predict a customer's preferred beverage price range based on demographic characteristics, purchasing behaviour, product preferences, brand awareness, and consumption habits.
 
-The project demonstrates the complete machine learning lifecycle—from raw data to deployment—including **data preprocessing, feature engineering, model comparison, experiment tracking, and a Streamlit web application**.
+The solution was built using an original dataset containing **30,010 customer records and 17 raw features**. The project involved extensive **data preprocessing, exploratory data analysis (EDA), feature engineering, categorical encoding, and model development** to transform raw customer information into meaningful predictive insights.
+
+To identify the most effective predictive model, six machine learning algorithms were trained and evaluated:
+
+- Logistic Regression
+- Gaussian Naive Bayes
+- Support Vector Machine (SVM)
+- Random Forest
+- LightGBM
+- XGBoost
+
+Among these, **XGBoost** achieved the highest **test accuracy of 92.44%** and was selected as the final production model.
+
+The complete machine learning pipeline was enhanced with **MLflow** for experiment tracking and model comparison, while the final model was deployed through an interactive **Streamlit** web application that enables users to predict a customer's preferred beverage price range in real time.
+
+This project demonstrates the complete machine learning lifecycle—from business problem understanding and data preparation to model evaluation, experiment management, and deployment—showcasing practical skills in **Python, Scikit-learn, XGBoost, LightGBM, MLflow, Streamlit, feature engineering, and end-to-end machine learning workflows**.
 
 ---
 
@@ -306,7 +320,7 @@ Users can enter:
 - Consumption Size
 - Consumption Situation
 
-The application processes the input through the prediction pipeline and instantly returns the predicted beverage price range. The interface is built with multiple input widgets and calls a dedicated prediction function that performs feature engineering, encoding, and model inference before displaying the result. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The application processes the input through the prediction pipeline and instantly returns the predicted beverage price range. The interface is built with multiple input widgets and calls a dedicated prediction function that performs feature engineering, encoding, and model inference before displaying the result.
 
 ---
 
@@ -316,7 +330,7 @@ The application processes the input through the prediction pipeline and instantl
 codex-beverage-price-range-prediction/
 
 │
-├── data/
+├── data
 │
 ├── notebooks/
 │     └── price_range_prediction.ipynb
@@ -404,6 +418,7 @@ The solution enables organisations to:
 ## **Bharti Kumari**
 
 MBA (Data Science)
+
 B.E (Computer Science)
 
 Former Credit Officer-Manager with 9+ years of banking experience transitioning into Data Science.
