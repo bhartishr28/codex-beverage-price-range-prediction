@@ -98,13 +98,15 @@ The presentation covers:
 
 ---
 
-# 📸 Streamlit Application
+## 📸 Application Screenshots
 
-The trained XGBoost model is deployed using **Streamlit**, providing an interactive interface for predicting a customer's preferred beverage price range based on demographic and behavioural information.
+### Streamlit Web Application
 
-<p align="center">
-  <img src="visuals/streamlit-ui.jpg" alt="Streamlit Application Demo" width="900">
-</p>
+![Streamlit UI](visuals/streamlit-ui.jpg)
+
+### 🚀 Try the Live Application
+
+👉 https://codex-beverage-price-range-prediction-6arifz9vdwuacl7kojcfgv.streamlit.app/
 
 **Key Features**
 
@@ -419,6 +421,18 @@ The solution enables organisations to:
 - User Authentication
 
 ---
+---
+
+## 🌐 Deployment
+
+| Platform | Link |
+|----------|------|
+| GitHub Repository | https://github.com/bhartishr28/codex-beverage-price-range-prediction |
+| Streamlit Cloud | https://codex-beverage-price-range-prediction-6arifz9vdwuacl7kojcfgv.streamlit.app/ |
+
+---
+
+⭐ If you found this project useful, please consider giving it a star!
 
 # 👩‍💻 About Me
 
@@ -445,6 +459,8 @@ Former Credit Officer-Manager with 9+ years of banking experience transitioning 
 - Data Visualisation
 
 ---
+
+
 
 # 🤝 Connect With Me
 
