@@ -19,6 +19,13 @@ An End-to-End Machine Learning Project for Predicting Customer Beverage Price Pr
 
 </p>
 
+## 🚀 Live Demo
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://codex-beverage-price-range-prediction-6arifz9vdwuacl7kojcfgv.streamlit.app/)
+
+👉 **Live Application:**  
+https://codex-beverage-price-range-prediction-6arifz9vdwuacl7kojcfgv.streamlit.app/
+
 ---
 
 # 📖 Project Overview
