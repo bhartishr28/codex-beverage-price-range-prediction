@@ -5,12 +5,12 @@
 <h1 align="center">🥤 CodeX Beverage Price Range Prediction</h1>
 
 <p align="center">
-An End-to-End Machine Learning Project for Predicting Customer Beverage Price Preferences using <b>XGBoost</b>, <b>MLflow</b>, and <b>Streamlit</b>.
+An End-to-End Multi-Class Machine Learning Project for Predicting Customer Beverage Price Preferences using <b>XGBoost</b>, <b>MLflow</b>, and <b>Streamlit</b>.
 </p>
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-success)
 ![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-green)
@@ -97,6 +97,16 @@ The presentation covers:
 ✅ Real-Time Prediction
 
 ---
+
+## 📊 Key Results
+
+- Dataset Size: 30,010 customer records
+- Features: 17 raw features
+- Models Evaluated: 6
+- Best Model: XGBoost
+- Test Accuracy: 92.44%
+- Deployment: Streamlit Community Cloud
+- Experiment Tracking: MLflow + DagsHub
 
 ## 📸 Application Screenshots
 
@@ -202,6 +212,28 @@ L --> M[Streamlit Web Application]
 ```
 
 ---
+Customer Survey
+        │
+        ▼
+ Data Cleaning
+        │
+        ▼
+ Feature Engineering
+        │
+        ▼
+ Encoding
+        │
+        ▼
+ XGBoost Model
+        │
+        ▼
+ Joblib Model
+        │
+        ▼
+ Prediction Pipeline
+        │
+        ▼
+ Streamlit Web App
 
 # 🧹 Data Preprocessing
 
@@ -393,7 +425,7 @@ pip install -r requirements.txt
 Run the Streamlit application
 
 ```bash
-streamlit run app.py
+streamlit run artifacts/app.py
 ```
 
 ---
@@ -423,14 +455,11 @@ The solution enables organisations to:
 ---
 ---
 
-## 🌐 Deployment
-
 | Platform | Link |
 |----------|------|
-| GitHub Repository | https://github.com/bhartishr28/codex-beverage-price-range-prediction |
-| Streamlit Cloud | https://codex-beverage-price-range-prediction-6arifz9vdwuacl7kojcfgv.streamlit.app/ |
+| GitHub Repository | [View Repository](https://github.com/bhartishr28/codex-beverage-price-range-prediction) |
+| Streamlit Cloud | [Launch App](https://codex-beverage-price-range-prediction-6arifz9vdwuacl7kojcfgv.streamlit.app/) |
 
----
 
 ⭐ If you found this project useful, please consider giving it a star!
 
@@ -444,19 +473,20 @@ B.E (Computer Science)
 
 Former Credit Officer-Manager with 9+ years of banking experience transitioning into Data Science.
 
-### Technical Skills
+## 🧠 Skills Demonstrated
 
-- Python
-- SQL
-- Machine Learning
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Feature Encoding
+- Multi-Class Classification
+- Model Selection
 - XGBoost
 - LightGBM
-- Streamlit
 - MLflow
-- Pandas
-- NumPy
-- Scikit-Learn
-- Data Visualisation
+- Experiment Tracking
+- Streamlit Deployment
+- Git & GitHub
 
 ---
 
